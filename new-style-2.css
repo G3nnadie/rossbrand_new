@@ -1719,8 +1719,8 @@ a.q-nav__panel-item:hover {
   }
   .q-tasks__body {
     width: initial;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -20px;
+    margin-right: -20px;
     padding-bottom: 28px;
   }
   .q-tasks__body > .q-swiper-pagination {
