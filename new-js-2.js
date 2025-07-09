@@ -36,8 +36,9 @@ $(document).ready(function () {
 
   // Hero sl
   var swiper = new Swiper(".q-hero__sl", {
+    loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 555000,
       disableOnInteraction: false
     },
     spaceBetween: 0,
@@ -77,6 +78,7 @@ $(document).ready(function () {
   });
 
   var swiper3 = new Swiper(".q-tasks__body", {
+    loop: true,
     autoplay: {
       delay: 8000,
       disableOnInteraction: false
@@ -99,7 +101,6 @@ $(document).ready(function () {
     },
     breakpoints: {
       992: {
-        spaceBetween: 0,
         onlyExternal: true,
         allowTouchMove: false,
       },

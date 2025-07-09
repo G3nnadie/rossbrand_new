@@ -844,12 +844,14 @@ a.q-nav__panel-item:hover {
   line-height: 1;
   font-size: 95px;
   font-weight: 500;
+  letter-spacing: -0.04em;
 }
 
 .q-vantage__title span {
   font-size: 20px;
   line-height: 1.2;
   margin-left: 20px;
+  letter-spacing: normal;
 }
 
 .q-vantage__list {
@@ -1834,6 +1836,10 @@ a.q-nav__panel-item:hover {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+  .container--norm {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .q-hero__item--1 .q-hero__img {
     padding-bottom: 81%;
     background: url(img/hero-1-mb.png) center 0/cover no-repeat !important;
@@ -1846,12 +1852,13 @@ a.q-nav__panel-item:hover {
     margin-top: -47px;
   }
   .q-hero__item--3 .q-hero__img {
-    margin-top: 22px;
-    padding-bottom: 57%;
-    background: url(img/hero-3-mb.png) center/cover no-repeat !important;
+    margin-top: -30px;
+    margin-left: 11px;
+    padding-bottom: 77%;
+    background: url(img/hero-3-mb.png) center 0/cover no-repeat !important;
   }
   .q-hero__item--3 .q-hero__body {
-    margin-top: 5px;
+    margin-top: -8px;
   }
   .q-tags__item {
     font-size: 10px;
@@ -1873,21 +1880,24 @@ a.q-nav__panel-item:hover {
     width: initial;
     margin: 0 -15px;
     position: static;
-    padding-bottom: 60%;
+    padding-bottom: 63.27%;
     background: url(img/vantage-mb.png) center/contain no-repeat !important;
   }
   .q-vantage__title {
-    margin-top: 32px;
+    margin-top: 20px;
+    padding-left: 5px;
   }
   .q-vantage__title {
     font-size: 95px;
   }
   .q-vantage__title span {
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 24px;
   }
   .q-vantage__list {
     max-width: 100%;
+    margin-top: 21px;
+    padding-left: 4px;
   }
   .q-vantage__list li:before {
     top: 50%;
@@ -1899,7 +1909,8 @@ a.q-nav__panel-item:hover {
     width: 100%;
     min-height: 90px;
     position: relative;
-    padding-left: 150px;
+    padding-right: 20px;
+    padding-left: 162px;
   }
   .q-vantage__item:not(:last-child) {
     border-right: 0;
@@ -1907,7 +1918,7 @@ a.q-nav__panel-item:hover {
   }
   .q-vantage__item strong,
   .q-vantage__item span {
-    left: 15px;
+    left: 20px;
     max-width: 120px;
     position: absolute;
   }
@@ -2039,7 +2050,7 @@ a.q-nav__panel-item:hover {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
   .q-hero__item--2 .q-hero__body {
-    margin-top: -90px;
+    margin-top: -80px;
   }
 }
 
