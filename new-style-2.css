@@ -1569,8 +1569,8 @@ a.q-nav__panel-item:hover {
     font-weight: 500;
   }
   .q-nav__body {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   .q-logo img {
     width: 144px;
