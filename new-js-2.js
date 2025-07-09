@@ -38,7 +38,7 @@ $(document).ready(function () {
   var swiper = new Swiper(".q-hero__sl", {
     loop: true,
     autoplay: {
-      delay: 555000,
+      delay: 5000,
       disableOnInteraction: false
     },
     spaceBetween: 0,
